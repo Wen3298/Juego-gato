@@ -1,0 +1,35 @@
+body{
+background-color: black;
+font-size: 80px;
+color: aliceblue;
+text-align:center;
+font-family: cursive;
+
+  }
+
+  h1{
+    color: rgb(212, 84, 159);
+    text-shadow: 0 0 30px #c509bc;
+    font-size: 70px;
+    text-align: center;
+  }
+ 
+.celda{
+  width: 90px;
+  height: 90px; 
+  border: 3px solid ;
+  border-color: #c509bc;
+  cursor: pointer;
+  
+  
+}
+
+.Contenedor{
+    display: grid;
+    grid-template-columns: 7% 7% 7% ;
+    justify-content: center;
+    margin-top: 100px;   
+}
+
+
+
