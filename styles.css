@@ -1,15 +1,16 @@
 body{
-background-color: black;
-font-size: 80px;
-color: aliceblue;
+background: url("https://i.gifer.com/oaq.gif" ) no-repeat ;
+font-size: 70px;
+color: black;
 text-align:center;
-font-family: cursive;
+ font-family: cursive;
+ background-size: cover;
 
   }
 
   h1{
-    color: rgb(212, 84, 159);
-    text-shadow: 0 0 70px #c509bc;
+    color: rgba(248, 80, 34, 0.852);
+    text-shadow: 0 0 70px #dd330ddc;
     font-size: 70px;
     text-align: center;
   }
@@ -18,21 +19,31 @@ font-family: cursive;
   width: 80.5px;
   height: 80.5px; 
   border: 7px solid ;
-  border-color: #c509bc;
+  border-color: #f14911;
   cursor: pointer;
   
   
 }
+
+
 
 .Contenedor{
     display: grid;
     grid-template-columns: 7% 7% 7% ;
     justify-content: center;
     margin-top: 100px;   
+    background-color: none;
+   
+  
+    
+   
+    
 }
 
 .celda:hover{
   background: rgba(0,0,0,0.15);
-  background-color: #db18e2;
+  background-color: #ec5611;
+  
+
 }
 
