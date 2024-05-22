@@ -19,14 +19,12 @@ let arreListas = [Celda1,Celda2,Celda3,Celda4,Celda5,Celda6,Celda7,Celda8,Celda9
 function jugador1(){
     arreListas.forEach(celdita => celdita.addEventListener("click",function(){
         if (!detectarGanador()) {
-            celdita.innerHTML= "x"
+            celdita.innerHTML= "👻"
             juegoAleaotorio()
-            detectarGanador()    
-        }else{
-            detectarGanador()
-
         }
-
+        if (detectarGanador()) {
+            
+        }
     }))
 
 }
@@ -40,7 +38,7 @@ function juegoAleaotorio() {
         let aleatorio = Math.floor(Math.random() * arreglosVacios.length)
     
         if(arreglosVacios.length>0){
-            arreglosVacios[aleatorio].innerHTML = "O"
+            arreglosVacios[aleatorio].innerHTML = "🔫"
         }
     }, 1000);
     
@@ -53,31 +51,35 @@ jugador1()
 
 
 function detectarGanador() {
-let JuegoGanador = [
-    [0,1,2],
-    [3,4,5],
-    [6,7,8],
-    [0,3,6],
-    [1,4,7],
-    [2,5,8],
-    [2,4,6],
-    [0,4,8],
-    
-]
-for (let combination of JuegoGanador) {
-const [a, b, c] = combination;
-if (arreListas[a].innerHTML && 
-   arreListas[a].innerHTML === arreListas[b].innerHTML && 
-   arreListas[a].innerHTML === arreListas[c].innerHTML) {
-     
-       return true
+    let JuegoGanador = [
+        [0,1,2],
+        [3,4,5],
+        [6,7,8],
+        [0,3,6],
+        [1,4,7],
+        [2,5,8],
+        [2,4,6],
+        [0,4,8],
+    ];
 
+    for (let combination of JuegoGanador) {
+        const [a, b, c] = combination;
+        if (arreListas[a].innerHTML && 
+            arreListas[a].innerHTML === arreListas[b].innerHTML && 
+            arreListas[a].innerHTML === arreListas[c].innerHTML) {
+            alert("¡Felicidades! ¡Hay un ganador!");
+            return true;
+        }
+    }
+    
+    return false;
 }
-return false
-}
- 
-}
-let refresh = document.getElementById("btn");
-refresh.addEventListener('click', _ => {
+
+
+
+
+// hago que con el evento click se refresque la pagina para asi volver a jugar
+let otraVez = document.getElementById("btn");
+otraVez.addEventListener('click', _ => {
             location.reload();
 })
