@@ -76,5 +76,8 @@ if (arreListas[a].innerHTML &&
 return false
 }
  
-
 }
+let refresh = document.getElementById("btn");
+refresh.addEventListener('click', _ => {
+            location.reload();
+})
