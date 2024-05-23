@@ -9,14 +9,14 @@ font-style: normal;
  background-size: cover;
 
   }
-
+/* estilos delencabezado*/
   h1{
     color: rgba(255, 255, 255, 0.852);
     text-shadow: 0 0 70px #1a0e69dc;
     font-size: 70px;
     text-align: center;
   }
- 
+ /* estilos de los divs*/
 .celda{
   width: 80.8px;
   height: 80.8px; 
@@ -25,7 +25,7 @@ font-style: normal;
   cursor: pointer;
 }
 
-
+/* estilos del contenedor de los divs*/
 .Contenedor{
     display: grid;
     grid-template-columns: 7% 7% 7% ;
@@ -38,15 +38,19 @@ font-style: normal;
  
 }
 
+/* estilos delencabezado*/
 .h2{
   font-size: 30px;
   color: #ffffff;
 
 }
+/* estilos delencabezado*/
 .hh2{
   font-size: 30px;
   color: #ffffff;
 }
+
+/* estilos del boton*/
 
 .btn{
   padding: 10px 20px;
@@ -55,4 +59,19 @@ font-style: normal;
   border: none;
   border-radius: 5px;
   cursor: pointer
+}
+
+
+
+.info2{
+  color: #cea985;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -340px;
+  border: 2px solid #ffff;
+  width: 200px;
+  height: 300px;
+  margin-left: 50px;
+  background-color: rgb(255, 243, 226);
+  
 }

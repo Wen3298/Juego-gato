@@ -76,10 +76,10 @@ function detectarGanador() {
 }
 
 
-
-
 // hago que con el evento click se refresque la pagina para asi volver a jugar
 let otraVez = document.getElementById("btn");
 otraVez.addEventListener('click', _ => {
             location.reload();
 })
+
+
