@@ -13,7 +13,7 @@ let BtnOtravez =document.getElementById("btn")
 let abrir=document.querySelector("[data-id='abril-modal']");
 let cerrar =document.querySelector("[data-id='cerrar-modal']");
 let dialog=document.querySelector(".cajitainfo");
-
+// se crean los eventos click para los botones uno de instrucciones y cerrar
 abrir.addEventListener("click",()=>{
     dialog.showModal(); // boton de abrir (instrucciones)
 });
@@ -58,7 +58,6 @@ function juegoAleaotorio() {
 jugador1()
 
 //Se crea la función opciones en la que la maquina o el jugador puedan ganar y  la función
-
 
 
 function detectarGanador() {

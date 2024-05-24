@@ -50,8 +50,7 @@ font-style: normal;
   color: #ffffff;
 }
 
-/* estilos del boton*/
-
+/* estilos del boton otra vez*/
 .btn{
   padding: 10px 20px;
   background-color: #bc413a;
@@ -60,7 +59,7 @@ font-style: normal;
   border-radius: 5px;
   cursor: pointer
 }
-
+/* boton de intrucciones*/
 .Instruciones{
   padding: 10px 20px;
   background-color: #bc413a;
@@ -70,6 +69,7 @@ font-style: normal;
   cursor: pointer;
 }
 
+/* imagen del dialog*/
 .cerrar{
   padding: 10px 20px;
   background-color: #bc413a;
@@ -81,7 +81,7 @@ margin-right: -70px;
 }
 
 
-
+/* estilos del dialog*/
 .cajitainfo{
   
   background-color:#fff;
@@ -96,7 +96,7 @@ margin-right: -70px;
  
  
 }
-
+/* imagen del dialog*/
 img{
  width: 60px;
  height: 60px;
