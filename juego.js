@@ -9,6 +9,17 @@ let Celda7 = document.getElementById("celda7")
 let Celda8 = document.getElementById("celda8")
 let Celda9 = document.getElementById("celda9")
 let BtnOtravez =document.getElementById("btn")
+// Botones de abrir , cerrar y el dialog
+let abrir=document.querySelector("[data-id='abril-modal']");
+let cerrar =document.querySelector("[data-id='cerrar-modal']");
+let dialog=document.querySelector(".cajitainfo");
+
+abrir.addEventListener("click",()=>{
+    dialog.showModal(); // boton de abrir (instrucciones)
+});
+cerrar.addEventListener("click",()=>{
+     dialog.close();// boton de cerrar
+});
 
 //se hace un  arreglo con todas las variables anteriores
 

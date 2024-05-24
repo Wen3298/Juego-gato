@@ -61,17 +61,47 @@ font-style: normal;
   cursor: pointer
 }
 
-
-
-.info2{
-  color: #cea985;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -340px;
-  border: 2px solid #ffff;
-  width: 200px;
-  height: 300px;
-  margin-left: 50px;
-  background-color: rgb(255, 243, 226);
-  
+.Instruciones{
+  padding: 10px 20px;
+  background-color: #bc413a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+.cerrar{
+  padding: 10px 20px;
+  background-color: #bc413a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+margin-right: -70px;
+}
+
+
+
+.cajitainfo{
+  
+  background-color:#fff;
+  color: black;
+  font-size:15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  padding:10px;
+  background-color: antiquewhite;
+ 
+ 
+}
+
+img{
+ width: 60px;
+ height: 60px;
+ margin-bottom: 20px;
+}
+
+
+
